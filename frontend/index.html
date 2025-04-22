@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>🌱 Quản lý Rau Củ</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="search-bar">
+        <input type="text" id="search-input" placeholder="🔍 Tìm tên rau củ..." />
+      </div>
+      
+    <h1 class="title">🌿 Quản lý Rau Củ</h1>
+
+    <div id="vegetable-list" class="veg-list"></div>
+    <div id="pagination" class="pagination"></div>
+
+    <div class="form-container">
+      <h2>➕ Thêm Rau Củ Mới</h2>
+      <form id="add-form">
+        <input type="text" id="name" placeholder="Tên rau củ" required />
+        <input type="number" id="price" placeholder="Giá (VND)" required />
+        <input type="text" id="group" placeholder="Nhóm" />
+        <input type="text" id="description" placeholder="Mô tả" />
+        <button type="submit">Thêm Ngay</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
